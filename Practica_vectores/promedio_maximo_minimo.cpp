@@ -32,7 +32,6 @@ int main() {
 void user_input(vector<int>& lista){
     int a;
     for (int i = 0; i < 15; i++){
-        cout << i << "xd" << endl;
         cin >> a;
         lista.push_back(a);
     }
